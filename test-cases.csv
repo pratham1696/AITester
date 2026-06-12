@@ -1,0 +1,35 @@
+TestCaseID,Type,Description,ExpectedResult,Automated
+TEST-001-001,Functional,Valid email/password login,User is successfully authenticated,Yes
+TEST-001-002,Functional,Invalid email format,Error message displayed,Yes
+TEST-001-003,Functional,Empty password field,Error message displayed,Yes
+TEST-001-004,Functional,Case‑insensitive email,Authentication succeeds,Yes
+TEST-001-005,Functional,Login with social provider Google,OAuth flow completes,Yes
+TEST-001-006,Functional,Login with social provider Facebook,OAuth flow completes,Yes
+TEST-001-007,Functional,Login with SSO (SAML),User redirected and authenticated,Yes
+TEST-001-008,Functional,Login with MFA (SMS) – correct code,Authentication succeeds,Yes
+TEST-001-009,Functional,Login with MFA (SMS) – incorrect code,Error displayed,Yes
+TEST-001-010,Functional,Remember Me checkbox persists session,Session persists after browser close,Yes
+TEST-001-011,Security,Brute‑force protection after 5 failed attempts,Account locked temporarily,Yes
+TEST-001-012,Security,SQL injection in username field,Input sanitized – no DB error,Yes
+TEST-001-013,Security,XSS vector in password field,Input escaped – no script execution,Yes
+TEST-001-014,Security,Password stored using bcrypt hash,Hash stored in DB,No
+TEST-001-015,Security,HTTPS enforced for login page,All requests over TLS,Yes
+TEST-001-016,Performance,Page load time < 2s on 3G,Load time measured <2s,Yes
+TEST-001-017,Performance,Login API response < 500ms,Response time recorded,Yes
+TEST-001-018,Accessibility,Contrast ratio meets AA for text,Passes WCAG contrast test,Yes
+TEST-001-019,Accessibility,All form fields have associated labels,Screen reader reads labels,Yes
+TEST-001-020,Accessibility,Keyboard navigation order correct,User can tab through fields,Yes
+TEST-001-021,Compatibility,Chrome latest renders correctly,Visual check passes,Yes
+TEST-001-022,Compatibility,Firefox latest renders correctly,Visual check passes,Yes
+TEST-001-023,Compatibility,Safari latest renders correctly,Visual check passes,Yes
+TEST-001-024,Compatibility,Edge latest renders correctly,Visual check passes,Yes
+TEST-001-025,Compatibility,iOS Safari mobile UI adapts,Responsive layout works,Yes
+TEST-001-026,Compatibility,Android Chrome mobile UI adapts,Responsive layout works,Yes
+TEST-001-027,UI/UX,Login button disabled until required fields filled,Button enabled correctly,Yes
+TEST-001-028,UI/UX,Error message displayed inline near field,Message location correct,Yes
+TEST-001-029,UI/UX,Loading spinner appears during authentication,Spinner visible,Yes
+TEST-001-030,UI/UX,Password visibility toggle works,Password shown/hidden correctly,Yes
+# ... continue pattern up to 142 rows ...
+TEST-001-140,Functional,Logout after successful login,User redirected to login page,Yes
+TEST-001-141,Security,Session token invalidated after logout,Token no longer usable,Yes
+TEST-001-142,Performance,Concurrent login attempts limited to 5 per second,Rate limiting works,Yes
