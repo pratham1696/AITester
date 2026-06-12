@@ -1,4 +1,5 @@
-# Maven / Java
+# Vercel and env files
+.env.sample
 target/
 *.class
 *.jar
