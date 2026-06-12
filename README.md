@@ -3,9 +3,41 @@
 A practical, project-driven curriculum for QA engineers learning to use LLMs as a real testing tool — not a toy.
 Each chapter pairs concept material with a hands-on project, a prompt template, and runnable code where applicable.
 
-- **Author:** Pramod Dutta — Principal SDET
-- **Website:** [The Testing Academy](https://thetestingacademy.com/)
-- **LinkedIn:** [linkedin.com/in/pramoddutta](https://www.linkedin.com/in/pramoddutta/)
+- **Software Tester & SME :** **Prathamesh Dhakane** — Senior QA Lead & Pega PRPC SME
+- **Experience:** 8 years of enterprise software testing across Pega, SaaS, and data archiving platforms (Infogain, Capgemini, AvenData)
+- **Certifications:** ISTQB Certified Tester | Selenium WebDriver with Java | Playwright Automation (In Progress – Q2 2026) | Generative AI for Testers
+
+---
+
+### About the Tester (Prathamesh Dhakane)
+
+Senior QA Lead and Subject Matter Expert with **8 years of enterprise software testing experience** across Pega, SaaS, and data archiving platforms. Currently working at **Infogain** (Mumbai, India) as Senior Consultant — Testing, promoted to SME within 1 year. Previously delivered QA for **CISCO's U.S. Pega platform** across 10+ Agile sprints at Capgemini with zero critical production defects at launch. Specializes in defining automation scope, building execution blueprints, failure-log triage, and guiding automation teams on coverage priorities.
+
+**Key Achievements:**
+- **30%** Regression Cycle Reduction across 3+ concurrent projects
+- **500+** Test Cases authored for CISCO Platform with 100% requirement-to-test traceability
+- **0** Production Escapes over 2+ years
+- **40%** Onboarding Time Reduction — standardized QA documentation suite adopted org-wide
+- **10+** QA Associates Mentored — slashed invalid bug reports from 6–8 to <2/sprint
+- **200+** Defects Managed End-to-End
+- **25%** Debug Time Saved via Pega Tracer & Clipboard
+- **60+** Automation Scenarios Scoped & Blueprinted
+
+**Contact:**
+- 📧 prathameshdhakane89@gmail.com
+- 📱 +91 99872 68398
+- 🔗 [LinkedIn](https://linkedin.com/in/prathamesh-dhakane-140763131)
+- 📍 Mumbai, India
+
+**Education:**
+- LLB — Bachelor of Laws, New Law College, Mumbai (2023)
+- B.Sc. — Information Technology, D.G. Ruparel College, Mumbai (2016)
+
+**Languages:** English, Hindi, Marathi
+
+**Awards & Recognition:**
+- 🏆 Employee of the Month — Feb 2025 (Infogain)
+- 🏆 Spot Award — Dec 2023 (Infogain)
 
 ---
 
@@ -295,4 +327,4 @@ You can read it linearly (chapter 01 → 02) or jump straight to a project:
 
 ---
 
-Made by [Pramod Dutta](https://thetestingacademy.com/) for The Testing Academy.
+Made by [Prathamesh Dhakane](https://linkedin.com/in/prathamesh-dhakane-140763131) for The Testing Academy.

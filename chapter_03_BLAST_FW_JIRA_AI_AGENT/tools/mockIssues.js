@@ -37,7 +37,7 @@ As a registered customer, I want to securely log in using my username, password,
     components: ['Authentication', 'Frontend', 'Security'],
     labels: ['mfa', 'auth', 'security', 'v2-login'],
     fixVersions: ['v2.4.0'],
-    reporter: 'Amit Dhakane',
+    reporter: 'Prathamesh Dhakane',
     assignee: 'Antigravity AI',
   },
 
@@ -77,7 +77,7 @@ As an executive or marketing manager, I want an interactive, real-time analytics
     components: ['Dashboard', 'Analytics', 'Reporting'],
     labels: ['performance', 'ws', 'export', 'v2-dashboard'],
     fixVersions: ['v2.5.0'],
-    reporter: 'Amit Dhakane',
+    reporter: 'Prathamesh Dhakane',
     assignee: 'Antigravity AI',
   },
 
@@ -110,7 +110,7 @@ As a shopper, I want to apply discount codes during checkout and see my order to
     components: ['Checkout', 'Billing'],
     labels: ['coupons', 'checkout', 'promotions'],
     fixVersions: ['v3.1.0'],
-    reporter: 'Amit Dhakane',
+    reporter: 'Prathamesh Dhakane',
     assignee: 'Antigravity AI',
   },
 };
