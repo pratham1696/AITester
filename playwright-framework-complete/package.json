@@ -1,0 +1,17 @@
+{
+  "name": "vwo-login-playwright-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Playwright suite for the VWO/Wingify login page.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "playwright": "^1.58.2",
+    "typescript": "^5.6.3"
+  }
+}
