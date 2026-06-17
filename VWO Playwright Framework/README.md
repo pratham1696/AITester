@@ -41,7 +41,7 @@ A Playwright suite focused on the VWO/Wingify login page at `https://app.vwo.com
 ## Folder Structure
 
 ```text
-playwright-framework-complete/
+VWO Playwright Framework/
   package.json
   playwright.config.ts
   tsconfig.json
